@@ -8,14 +8,17 @@
 import UIKit
 
 final class MainViewController: UIViewController {
-
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		configureViewController	()
 	}
-	
-	func configureViewController() {
-		print ("vc configured")
-	}
 }
+		
+	func configureViewController() {
+		print("bla-bla")
+		func configureView() {
+			print("View Configure")
+		}
+	}
+
 
